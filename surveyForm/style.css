@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray url('./bgImg.png') no-repeat;
+    background-size:cover;
+    height: 100%;
+    text-align: center;
+}
+body>h1{
+    margin: 10px 0;
+}
+body>p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#survey-form{
+    height: fit-content;
+    background-color: rgba(237, 164, 137, 0.667);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+label{
+    width: fit-content;
+    font-size: 23px;
+}
+input,select{
+    width: 100%;
+    padding:10px ;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0;
+}
+input:focus{
+    outline: none;
+}
+.field{
+    padding: 0;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.radio-subdiv,.checkbox-subdiv{
+    width: 60%;
+    display: flex;
+    margin:0;
+}
+.radio-field>label{
+    margin: 10px 0;
+}
+.radio-subdiv>input{
+    margin: 5px 0;
+}
+.radio-subdiv,.checkbox-subdiv>input{
+    margin: 5px 0;
+}
+.radio-subdiv>label,.checkbox-subdiv>label{
+    font-size: 18px;
+    width:100%;
+    margin:0;
+    text-align: left;
+}
+.submit-btn{
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+}
+textarea{
+    width: 100%;
+    padding:10px;
+    margin: 10px 0;
+}
